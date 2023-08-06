@@ -1,0 +1,66 @@
+/* Estilo para o corpo da página */
+body {
+    width: 592px;
+    margin: auto;
+    text-align: center;
+}
+
+main img {
+    margin-bottom: 72px;
+}
+
+/* Estilo para os cabeçalhos h1 */
+h1 {
+    font-size: 49px;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+
+/* Estilo para os elementos <span> dentro dos cabeçalhos h1 */
+h1 span {
+    font-weight: bold;
+}
+
+/* Estilo para os parágrafos dentro do elemento <main> */
+main p {
+    color: #7D7987;
+    margin-bottom: 72px;
+    line-height: 28px;
+}
+
+/* Estilo para parágrafos e links */
+p, a {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Linhas em cima dos links*/
+#line {
+    width: 568px;
+    height: 0px;
+    border: #ECEFF2 1px solid;
+    margin-bottom: 8px;
+}
+
+/* Estilo para links */
+a {
+    color: #FF9900;
+}
+
+/* Deixar espaço entre os liks */
+a + a {
+    margin-left: 28px;
+}
+
+/* Estilo para elementos <span> dentro do elemento <main> */
+main span {
+    color: #FF9900;
+}
+
+/* Bolinhas no canto superior direito */
+#balls {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
